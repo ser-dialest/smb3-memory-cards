@@ -1,0 +1,17 @@
+.card {
+    width: 84px;
+    height: 132px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./CardSheet3.png");
+    background-position-x: 0px;
+    position: relative;
+    /* 0 84 168 252 336 420 504 */
+}
+
+.cursor {
+    position: absolute;
+    left: 0;
+    top: 0;
+}

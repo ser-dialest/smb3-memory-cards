@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "name": "Mushroom",
+      "image": "./images/mushroom3.png"
+    },
+    {
+      "id": 2,
+      "name": "Fire Flower",
+      "image": "./images/flower3.png"
+    },
+    {
+      "id": 3,
+      "name": "Starman",
+      "image": "./images/star3.png"
+    },
+    {
+      "id": 4,
+      "name": "Leaf",
+      "image": "./images/leaf3.png"
+    },
+    {
+      "id": 5,
+      "name": "Tanooki Suit",
+      "image": "./images/tanooki3.png"
+    },
+    {
+      "id": 6,
+      "name": "Frog Suit",
+      "image": "./images/frog3.png"
+    },
+    {
+      "id": 7,
+      "name": "Cloud",
+      "image": "./images/cloud3.png"
+    },
+    {
+      "id": 8,
+      "name": "1-UP",
+      "image": "./images/1up3.png"
+    },
+    {
+      "id": 9,
+      "name": "Whistle",
+      "image": "./images/whistle3.png"
+    },
+    {
+      "id": 10,
+      "name": "Music Box",
+      "image": "./images/music3.png"
+    },
+    {
+      "id": 11,
+      "name": "P-Wing",
+      "image": "./images/pwing3.png"
+    },
+    {
+      "id": 12,
+      "name": "Hammer",
+      "image": "./images/hammer3.png"
+    }
+  ]
+  
