@@ -1,21 +1,21 @@
 import React from "react";
 import Card from "./components/Card";
 import Wrapper from "./components/Wrapper";
-// import Scores from "./components/Scores";
+import Scores from "./components/Scores";
 import cards from "./cards.json";
 import flip from "./assets/smb3_flip.wav";
 import match from "./assets/smb3_match.wav";
 import miss from "./assets/smb3_miss.wav";
-import bgm from "./assets/smb3_bgm.mp3"
+// import bgm from "./assets/smb3_bgm.mp3";
 import "./App.css";
 
 class App extends React.Component {
   state = {
-    start: true,
+    // start: true,
     cards: cards,
     clickedCards: [],
     score: 0,
-    totalClick: 0,
+    highScore: 0,
     faceUp: false,
     backX: 0,
     cardDisplay: "none",
@@ -31,7 +31,11 @@ class App extends React.Component {
           score: this.state.score + 1,
           clickedCards: [...this.state.clickedCards, id],
           clickable: false
-        }, () => console.log(this.state.score));
+        }, () => {
+          if (this.state.score > this.state.highScore) {
+            this.setState({highScore: this.state.score});
+          };
+        });
       }
       else {
         let sound = new Audio(miss);
@@ -39,8 +43,8 @@ class App extends React.Component {
         this.setState({
           score: 0,
           clickedCards: []
-        }, () => console.log(this.state.score));
-      }
+        });
+      };
       this.flipCard(this.state.faceUp);
     };
   };
@@ -64,10 +68,7 @@ class App extends React.Component {
             }
             if (t === 70 && !this.state.faceUp) {
               this.setState({cardDisplay: "none"});
-              this.setState({
-                cards: cards.sort(() => Math.random() - 0.5),
-                totalClick: this.state.totalClick + 1
-              });
+              this.setState({cards: cards.sort(() => Math.random() - 0.5)});
             };
             if (t === 90) {
               if (this.state.faceUp) {
@@ -110,20 +111,25 @@ class App extends React.Component {
 
   render() {
     return (
-      <Wrapper>
-        {/* <Scores></Scores> */}
-        {this.state.cards.map(card => (
-        <Card 
-          id={card.id} 
-          name={card.name} 
-          image={card.image}
-          handleShuffle={() => this.handleShuffle(card.id)}
-          backX={this.state.backX + "px"}
-          cardDisplay={this.state.cardDisplay}
-          >
-        </Card>
-        ))}
-      </Wrapper>
+      <div>
+        <Scores
+            score={this.state.score}
+            highScore={this.state.highScore}
+          ></Scores>
+        <Wrapper>
+          {this.state.cards.map(card => (
+          <Card 
+            id={card.id} 
+            name={card.name} 
+            image={card.image}
+            handleShuffle={() => this.handleShuffle(card.id)}
+            backX={this.state.backX + "px"}
+            cardDisplay={this.state.cardDisplay}
+            >
+          </Card>
+          ))}
+        </Wrapper>
+      </div>
     );
   };
 };

@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'super_mario_brothers_3_secoRg';
+    src: url('../../assets/super-mario-brothers-3-secondary.woff2') format('woff2'),
+         url('../../assets/super-mario-brothers-3-secondary.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.scores {
+    font-family: 'super_mario_brothers_3_secoRg';
+    font-size: 4em;
+    display: flex;
+    justify-content: space-around;
+    color: #FFFFFF;
+    padding: 1rem 0 0 0;
+}
