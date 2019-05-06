@@ -1,27 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bdd657b5536b185c56e0a69c2d250123",
+    "revision": "620806b73788c1827e3ac31981615cd3",
     "url": "/smb3-memory-cards/index.html"
   },
   {
-    "revision": "4938bab5852aee3abc63",
-    "url": "/smb3-memory-cards/static/css/main.adf2b992.chunk.css"
+    "revision": "8c3a2545f9e0f4e0953e",
+    "url": "/smb3-memory-cards/static/css/main.408f6a43.chunk.css"
   },
   {
     "revision": "6381e811cf06b290fea8",
     "url": "/smb3-memory-cards/static/js/2.d335d203.chunk.js"
   },
   {
-    "revision": "4938bab5852aee3abc63",
-    "url": "/smb3-memory-cards/static/js/main.1880ed80.chunk.js"
+    "revision": "8c3a2545f9e0f4e0953e",
+    "url": "/smb3-memory-cards/static/js/main.16c26617.chunk.js"
   },
   {
     "revision": "eff6f7a16af9e5f8e247",
     "url": "/smb3-memory-cards/static/js/runtime~main.d6e4a95c.js"
-  },
-  {
-    "revision": "a950c25e2fd5a16541e436b604e29949",
-    "url": "/smb3-memory-cards/static/media/smb3_bgm.a950c25e.mp3"
   },
   {
     "revision": "f1ceaab0b12d39d9bf38b1929cdf4b87",
@@ -38,5 +34,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "711608e1534d13ea831479d09fe9cbcf",
     "url": "/smb3-memory-cards/static/media/smb3_text.711608e1.wav"
+  },
+  {
+    "revision": "224e8525842ff9cbef7a85f576e93c62",
+    "url": "/smb3-memory-cards/static/media/super-mario-brothers-3-secondary.224e8525.woff2"
+  },
+  {
+    "revision": "abc880da50692b4719c723c6a6f36b52",
+    "url": "/smb3-memory-cards/static/media/super-mario-brothers-3-secondary.abc880da.woff"
   }
 ]);
