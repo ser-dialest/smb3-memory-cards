@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c9c6e89a1068af16dfbc8d827077cf70",
+    "revision": "bdd657b5536b185c56e0a69c2d250123",
     "url": "/smb3-memory-cards/index.html"
   },
   {
-    "revision": "432a2f231061a1b91e0f",
-    "url": "/smb3-memory-cards/static/css/main.4a1663e8.chunk.css"
+    "revision": "4938bab5852aee3abc63",
+    "url": "/smb3-memory-cards/static/css/main.adf2b992.chunk.css"
   },
   {
-    "revision": "4e029b16120c0b7539f5",
-    "url": "/smb3-memory-cards/static/js/2.9742547c.chunk.js"
+    "revision": "6381e811cf06b290fea8",
+    "url": "/smb3-memory-cards/static/js/2.d335d203.chunk.js"
   },
   {
-    "revision": "432a2f231061a1b91e0f",
-    "url": "/smb3-memory-cards/static/js/main.341119b9.chunk.js"
+    "revision": "4938bab5852aee3abc63",
+    "url": "/smb3-memory-cards/static/js/main.1880ed80.chunk.js"
   },
   {
     "revision": "eff6f7a16af9e5f8e247",
