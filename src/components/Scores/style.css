@@ -11,6 +11,7 @@
     font-family: 'super_mario_brothers_3_secoRg';
     font-size: 4em;
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-around;
     color: #FFFFFF;
     padding: 1rem 0 0 0;
