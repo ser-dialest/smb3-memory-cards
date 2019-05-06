@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/smb3-memory-cards/static/css/main.4a1663e8.chunk.css",
+    "main.js": "/smb3-memory-cards/static/js/main.341119b9.chunk.js",
+    "main.js.map": "/smb3-memory-cards/static/js/main.341119b9.chunk.js.map",
+    "runtime~main.js": "/smb3-memory-cards/static/js/runtime~main.d6e4a95c.js",
+    "runtime~main.js.map": "/smb3-memory-cards/static/js/runtime~main.d6e4a95c.js.map",
+    "static/js/2.9742547c.chunk.js": "/smb3-memory-cards/static/js/2.9742547c.chunk.js",
+    "static/js/2.9742547c.chunk.js.map": "/smb3-memory-cards/static/js/2.9742547c.chunk.js.map",
+    "index.html": "/smb3-memory-cards/index.html",
+    "precache-manifest.ae462495461c9a69c93737b6e521d051.js": "/smb3-memory-cards/precache-manifest.ae462495461c9a69c93737b6e521d051.js",
+    "service-worker.js": "/smb3-memory-cards/service-worker.js",
+    "static/css/main.4a1663e8.chunk.css.map": "/smb3-memory-cards/static/css/main.4a1663e8.chunk.css.map",
+    "static/media/smb3_bgm.mp3": "/smb3-memory-cards/static/media/smb3_bgm.a950c25e.mp3",
+    "static/media/smb3_flip.wav": "/smb3-memory-cards/static/media/smb3_flip.f1ceaab0.wav",
+    "static/media/smb3_match.wav": "/smb3-memory-cards/static/media/smb3_match.17822b91.wav",
+    "static/media/smb3_miss.wav": "/smb3-memory-cards/static/media/smb3_miss.f44e0265.wav",
+    "static/media/smb3_text.wav": "/smb3-memory-cards/static/media/smb3_text.711608e1.wav"
+  }
+}
