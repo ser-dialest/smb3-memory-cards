@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "./components/Card";
 import Wrapper from "./components/Wrapper";
-import Scores from "./components/Scores"
+// import Scores from "./components/Scores";
 import cards from "./cards.json";
 import flip from "./assets/smb3_flip.wav";
 import match from "./assets/smb3_match.wav";
@@ -111,7 +111,7 @@ class App extends React.Component {
   render() {
     return (
       <Wrapper>
-        <Scores></Scores>
+        {/* <Scores></Scores> */}
         {this.state.cards.map(card => (
         <Card 
           id={card.id} 
