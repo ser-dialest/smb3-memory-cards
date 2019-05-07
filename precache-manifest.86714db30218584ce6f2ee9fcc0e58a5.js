@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "620806b73788c1827e3ac31981615cd3",
+    "revision": "958b96475122f09a18748e5d064be1e3",
     "url": "/smb3-memory-cards/index.html"
   },
   {
-    "revision": "8c3a2545f9e0f4e0953e",
-    "url": "/smb3-memory-cards/static/css/main.408f6a43.chunk.css"
+    "revision": "9bb95ed07c36b63c2471",
+    "url": "/smb3-memory-cards/static/css/main.1706d8a4.chunk.css"
   },
   {
-    "revision": "6381e811cf06b290fea8",
-    "url": "/smb3-memory-cards/static/js/2.d335d203.chunk.js"
+    "revision": "4e029b16120c0b7539f5",
+    "url": "/smb3-memory-cards/static/js/2.9742547c.chunk.js"
   },
   {
-    "revision": "8c3a2545f9e0f4e0953e",
-    "url": "/smb3-memory-cards/static/js/main.16c26617.chunk.js"
+    "revision": "9bb95ed07c36b63c2471",
+    "url": "/smb3-memory-cards/static/js/main.93d24257.chunk.js"
   },
   {
     "revision": "eff6f7a16af9e5f8e247",
     "url": "/smb3-memory-cards/static/js/runtime~main.d6e4a95c.js"
+  },
+  {
+    "revision": "a950c25e2fd5a16541e436b604e29949",
+    "url": "/smb3-memory-cards/static/media/smb3_bgm.a950c25e.mp3"
   },
   {
     "revision": "f1ceaab0b12d39d9bf38b1929cdf4b87",
