@@ -6,12 +6,12 @@ import cards from "./cards.json";
 import flip from "./assets/smb3_flip.wav";
 import match from "./assets/smb3_match.wav";
 import miss from "./assets/smb3_miss.wav";
-// import bgm from "./assets/smb3_bgm.mp3";
+import bgm from "./assets/smb3_bgm.mp3";
 import "./App.css";
 
 class App extends React.Component {
   state = {
-    // start: true,
+    start: true,
     cards: cards,
     clickedCards: [],
     score: 0,
@@ -101,12 +101,13 @@ class App extends React.Component {
     if (!this.state.faceUp) {
       this.flipCard(false);
     };
-    // if (this.state.start) {
-    //   this.setState({start:false}, () => {
-    //     let sound = new Audio(bgm);
-    //     sound.play();
-    //   })
-    // };
+    if (this.state.start) {
+      this.setState({start:false}, () => {
+        let sound = new Audio(bgm);
+        sound.loop = true;
+        sound.play();
+      })
+    };
   }
 
   render() {
